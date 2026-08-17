@@ -1,0 +1,6 @@
+# Python
+__pycache__/
+*.pyc
+
+# VSC config
+*.code-workspace
