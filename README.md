@@ -41,15 +41,9 @@ Each project is fully self-contained in its respective folder. Open your shell i
 ```bash
 cd Right_Triangle
 python main.py
-
-#### 2. Task Manager
-```bash
-cd Right_Triangle
-python main.py
 ```
 
-### Task Manager
-
+#### 2. Task Manager
 ```bash
 cd Task_Manager
 python main.py
