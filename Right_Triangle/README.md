@@ -37,56 +37,6 @@ This project was built as a learning exercise to practice core Python concepts, 
 
 ## ⚙️ Design & Workflow
 
-Aquí tienes la combinación completa de ambos bloques integrados en un formato de README para GitHub:
-
-```markdown
-# Introductory Right Triangle Calculator
-
-> Calculate every angle of a right triangle when given 2 of its angles, or calculate the sides and angles of the triangle when given 2 of its sides.
-
----
-
-## 📝 About this project
-
-This project was built as a learning exercise to practice core Python concepts, including:
-
-- Functions and modular code organization (splitting logic across multiple files)
-- Exception handling (`try`/`except`)
-- File input/output (reading and writing to text files)
-- Input validation with retry loops
-- Basic separation of concerns (calculation logic vs. user interaction)
-
----
-
-## ✨ Features
-
-- **Angle mode**: enter two angles of the triangle to calculate the third one.
-- **Side mode**: enter two sides (marking each as hypotenuse or leg) to calculate the missing side and all the angles.
-- Every calculated result is saved to a text file, with the name of the user who executed the code.
-
----
-
-## 🏗️ Technical Analysis
-
-### Data Specifications
-
-| Data Type | Attributes / Variables | Description |
-| :--- | :--- | :--- |
-| **Input Data** | `side1` (float), `side2` (float), `type1` (string), `type2` (string) / `angle1` (float), `angle2` (float) | Raw inputs collected via CLI user prompts |
-| **Output Data** | `angles` (list), `sides` (list) | Calculated results displayed on screen and written to file |
-
----
-
-## ⚙️ Design & Workflow
-
-```
-
-[ Mode Selection ]
-├── Angle Mode (a)
-└── Side Mode (s)
-
-```
-
 ### Program Flow
 
 #### 1. Mode Selection
