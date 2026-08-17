@@ -10,9 +10,23 @@ All scripts need to be executed in a shell.
 
 ## How to run the code
 
-Requires Python 3, In each script folder:
+## How to run the code
+
+Requires Python 3.
+
+Each project is independent and can be run from its own directory.
+
+### Right Triangle
 
 ```bash
+cd Right_Triangle
+python main.py
+```
+
+### Task Manager
+
+```bash
+cd Task_Manager
 python main.py
 ```
 
