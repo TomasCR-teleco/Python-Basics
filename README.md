@@ -10,8 +10,6 @@ All scripts need to be executed in a shell.
 
 ## How to run the code
 
-## How to run the code
-
 Requires Python 3.
 
 Each project is independent and can be run from its own directory.
