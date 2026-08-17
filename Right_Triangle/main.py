@@ -1,5 +1,5 @@
 #Calculate every angle of a right triangle when given 2 of its angles. Or calculate the sides and angles of the triangle when given 2 of its sides.
-################################################################################
+#####################################################################################################################################################################
 #Analysis:
 #   Data input: side1 (float), side2 (float), type1 (string), type2 (string) / angle1 (float), angle2 (float).
 #   Data output: angles (list), sides (list).
@@ -15,7 +15,7 @@
 #       2.2.3 Calculate all the angles.
 #       2.2.4 Save the results in a file.
 #   3. Display the results.
-################################################################################
+#####################################################################################################################################
 from calculus import calculate_sides, angle_sorter, calculate_angles
 from validation import ask_float, ask_type
 from data_saving import save
